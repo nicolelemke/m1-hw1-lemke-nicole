@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+
+body {
+    background-color: rgb(133, 187, 173);
+}
+
+h1, h2, h3, p {
+    color: rgb(41, 39, 39);
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(46, 46, 46);
+}
+h1 {
+    color: rgb(235, 235, 235);
+}
+
+nav {
+    padding: 30px 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(154, 208, 230);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    transition: .3s;
+}
+
+a:hover {
+    color: rgb(247, 174, 92);
+    transition: .3s;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 200px;
+}
+
+p {
+    font-style: italic;
+    padding: 5px 0;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 64, 68);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(235, 235, 235);
+    padding-top: 50px;
+}
